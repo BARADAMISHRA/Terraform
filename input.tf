@@ -1,6 +1,7 @@
 variable "region" {
   description = "Please specify the aws_region before you run "
   type        = string
+  default    = "ap-south-1"
 
 
 
@@ -31,6 +32,6 @@ variable "server_tag_Name" {
 variable "instance_size" {
   description = " Please specify the size of the machine"
   type        = string
-
+  default  =  "t2.micro"
 
 }
